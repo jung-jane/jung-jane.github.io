@@ -601,7 +601,7 @@ a:hover {
 ======================================*/
 
 .intro {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   color: #fff;
 }
@@ -611,8 +611,8 @@ a:hover {
   position: absolute;
 }
 
-.intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+/* .intro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.0);
   position: absolute;
   top: 0;
   left: 0px;
@@ -620,7 +620,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: .9;
-}
+} */
 
 .intro .intro-title {
   color: #fff;
