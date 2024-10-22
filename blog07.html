@@ -101,7 +101,7 @@
               <img src="img/post-1.jpg" class="img-fluid" alt="">
             </div>
             <div class="post-meta">
-              <h1 class="article-title">Gen-3</h1>
+              <h1 class="article-title">Meshy.ai</h1>
               <ul>
                 <li>
                   <span class="ion-ios-person"></span>
@@ -119,85 +119,29 @@
             </div>
             <div class="article-content">
               <p>
-                Gen-3 Alpha는 runway 사이트에서 만든 모델이며, 텍스트 프롬프트를 통해 고품질의 사실적인 비디오를 생성하는 AI 모델입니다.    
+                Meshy.ai는 이미지를 3D로 만들어주는 Ai입니다.    <br>
+                해당 인공지능을 프롬프트를 사용해서 3D 모델을 만들 수도 있고, 이미지를 모델로 출력할 수도 있게 해주는 Ai입니다.<br>
+                디스코드에서 사용하면 무료로 사용할 수 있습니다.<br>
+                <a href="https://www.meshy.ai/">https://www.meshy.ai/</a>
+
               <br><br></p>
               <p>
-                오늘은 GEN-3 Alpha 프롬프트 가이드를 작성해보고자 합니다.
-                먼저, 전체적으로 프롬프트를 생성 할 때 중요한 점은 4가지입니다.
-                <ul>
-                  <li>구체적으로 설명해야합니다. </li>
-                  <li>동작은 순차적으로 입력합니다.</li>
-                  <li>간단하고 명확한 단어를 사용합니다.</li>
-                  <li>전문 용어를 사용합니다.</li>
-                </ul>
-                 <br>
-                 종합적으로 얘기하면, 모호하게 쓰지말고 정확하게 의도를 입력합니다.
+                Meshy empowers artists, game developers, <br>
+                and creators to bring their visions <br>
+                to life with a toolkit for creating 3D models in minutes.
               <br><br></p>
               <p>
                 
               </p>
 
-              <img src="./img/gen3.jpg" class="img-fluid">
+              <img src="./img/meshy.jpg" class="img-fluid">
               <br><br>
 
               <p>
-                디테일한 프롬프트 구조는 앞선 게시물에서 설명한 카메라 움직임, 장면 설정, 추가세부조정에서 추가세부조정을 세분화해서 나눈 것입니다.
+                기본적으로 이미지를 넣으면, 3D로 변환된 결과물을 제공해줍니다. 변환된 3D는 로우폴리 수준으로 생성되어지며, 모델링파일로 내보내기 할 수 있어 Blender나 C4D에서 수정가능합니다. 실제로 사용해보는 후기는 다음 게시물에서 다뤄보도록 하겠습니다.
               <br></p>
               <p>
-               이는 다음과 같이 세분화 됩니다. 카메라 움직임,	장면 설정,	주요 피사체,	조명 스타일,	동작과 이벤트,	기타 시각적 요소로 말이죠.<br>
-               각 요소의 프롬프트는 용어가 아주 세분화되어 있어 필요한 내용을 그때 그때 찾아가며 사용하는 것이 편리합니다.
-               몇가지 아래 작성해보록 하겠습니다.
-               <p>
-                <br>
-                <p>
-                 카메라 움직임 
-                  <ul>
-                    <li>Low angle (저각도) </li>
-                    <li>High angle (고각도)</li>
-                    <li>Overhead (머리 위에서)</li>
-                    <li>FPV (1인칭 시점)</li>
-                    <li>Hand held (손으로 들고 찍음) </li>
-                    <li>Wide angle (광각)</li>
-                    <li>Close up (클로즈업)</li>
-                    <li>Macro cinematography (매크로 촬영)</li>
-                    <li>Over the shoulder (어깨 너머로) </li>
-                    <li>Tracking (추적 촬영)</li>
-                    <li>Overhead (머리 위에서)</li>
-                    <li>Establishing wide (전경 샷)</li>
-                    <li>50mm lens (50mm 렌즈) </li>
-                    <li>SnorriCam (스노리캠)피사체에 고정된 카메라로 촬영합니다.</li>
-                    <li>Realistic documentary (사실적인 다큐멘터리)</li>
-                    <li>Camcorder (캠코더)</li>
-                    <li>etc</li>
-                  </ul>
-                   <br>
-                <br><br></p>
-                <p>
-                  장면 설정 
-                   <ul>
-                     <li>Tropical rainforest (열대 우림) </li>
-                     <li>Busy city street at night (밤의 번화한 도시 거리)</li>
-                     <li>Quiet forest in autumn (가을의 조용한 숲)</li>
-                     <li>Futuristic cityscape (미래 도시 풍경)</li>
-                     <li>Desert at sunset (일몰의 사막) </li>
-                     <li>Snow-covered mountains (눈 덮인 산)</li>
-                     <li>Rural village in morning mist (아침 안개의 시골 마을)</li>
-                     <li>Coastal town at dawn (새벽의 해안 마을)</li>
-                     <li>Ancient castle in fog (안개 속 고대 성) </li>
-                     <li>Tropical beach at noon (정오의 열대 해변)</li>
-                     <li>Industrial area at dusk (황혼의 산업 지대)</li>
-                     <li>Suburban neighborhood at sunset (일몰의 교외 지역)</li>
-                     <li>Busy market in the afternoon (오후의 번화한 시장) </li>
-                     <li>Historical town square (역사적인 마을 광장)</li>
-                     <li>Modern skyscraper skyline (현대 고층 건물 스카이라인)</li>
-                     <li>Mountain lake at sunrise (해돋이의 산 호수)</li>
-                     <li>etc</li>
-                   </ul>
-                    <br>
-                 <br><br></p> 
-              <br><br></p>
-              <br><br> </p>
-               마지막으로 GEN-3 Alpha 사용 방법은 다음 게시물에서 알아보도록 하겠습니다.
+        
               <br><br><br>
               
         
